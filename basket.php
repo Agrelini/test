@@ -31,6 +31,8 @@ d($template);
 ?>
 
  <main class="main">
+ <p>Hello World</p>
+ <br>
         <div class="basket-wrapper">
                 <div class="basket-wrapper__header flex flex-column-center">
                     <h1 class="basket-wrapper__header__head">Ваша корзина</h1>
