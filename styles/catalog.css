@@ -1,0 +1,43 @@
+.catalog-products-item {
+  border: 1px solid gray;
+}
+
+.catalog-products-item-pic {
+  width: 100px;
+  height: 200px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.catalog-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.catalog-pagination-item {
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 0 5px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+.catalog-pagination-item.active {
+  background-color: #fff;
+  color: gray;
+}
+
+.catalog-preloader {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+/*# sourceMappingURL=catalog.css.map */

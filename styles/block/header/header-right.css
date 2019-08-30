@@ -1,0 +1,20 @@
+.header{
+    border-bottom: 1px solid rgb(225, 225, 225); 
+}
+
+.header-right__item{
+    margin-left: 30px
+}
+.header-right__item__pic{
+    height: 30px;
+    width: 30px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+.item__pic_account{
+    background-image:url('../../../images/icons/account.png'); 
+}
+.item__pic_backet{
+    background-image:url('../../../images/icons/bascet.png'); 
+}

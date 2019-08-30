@@ -1,0 +1,37 @@
+.catalog{
+    &-products{
+        &-item{
+            border: 1px solid gray;
+            &-pic{
+                width: 100px;
+                height: 200px;
+                background-position: center center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    &-pagination{
+    display: flex;
+    justify-content: center;
+    &-item{
+            padding: 10px;
+            border: 1px solid gray;
+            margin: 0 5px;
+            background-color: gray;
+            color: white;
+            cursor: pointer;
+            &.active{
+                background-color: #fff;
+                color:gray;
+            }
+        }
+    }
+    &-preloader{
+        display: none;
+    }
+}
+
+.visible{
+    display: block;
+}

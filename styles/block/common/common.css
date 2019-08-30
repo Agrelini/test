@@ -1,0 +1,82 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato Regular', sans-serif;   
+   }
+   a:hover{
+   text-shadow: 1px 1px#c5c5c5;    
+   }
+h1, h3{
+    color: black;  
+    text-transform: uppercase;    
+    }
+.button-default{
+    font-size: 17px;
+    line-height: 20px;
+    padding: 20px 25px;
+    margin: 30px 10px;
+    border: 2px solid transparent;
+    background-color: #f68236;
+    transition: all 0.4s;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.flex{
+    display: flex;   
+   }
+   
+   .flex-row{
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center; 
+   }
+   
+   .flex-wrap{
+       flex-wrap: wrap;
+   }
+   
+   .flex-row-start{
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: flex-start; 
+       }
+   
+   .flex-column{
+    flex-direction: column;
+    justify-content: center;
+    
+   
+   }
+   .flex-column-start{
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    
+   }
+   
+   .flex-column-center{
+       flex-direction: column;
+       justify-content: center;  
+       align-items: center; 
+      }
+
+      @font-face {
+        font-family: 'Lato Regular';
+        src: url('../../../fonts/Lato-Regular.eot');
+        src: url('../../../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../../fonts/Lato-Regular.woff') format('woff'),
+        url('../../../fonts/Lato-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+    
+    @font-face {
+            font-family: 'Lato Bold';
+            src: url('../../../fonts/Lato-Bold.eot');
+            src: url('../../../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+            url('../../../fonts/Lato-Bold.woff') format('woff'),
+            url('../../../fonts/Lato-Bold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }

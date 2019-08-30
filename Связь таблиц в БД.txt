@@ -1,0 +1,1 @@
+SELECT products.* FROM products INNER JOIN catalogs_products ON catalogs_products.product_id = products.id WHERE catalogs_products.catalog_id = 1
